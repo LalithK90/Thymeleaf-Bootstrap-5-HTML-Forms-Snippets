@@ -1,0 +1,15 @@
+{
+
+	"data-th-fragment": {
+		"scope": "html",
+		"prefix": "dtfragment",
+		"body":  "data-th-fragment= \"${fragment_name}\"" ,
+		"description": "To add fragment attribute to html element thymeleaf template"
+	},
+	"data-th-text": {
+		"scope": "html",
+		"prefix": "dttext",
+		"body":  "data-th-text=\"${${variable_name}}\"" ,
+		"description": "Display dynamic text in a template."
+	}
+}

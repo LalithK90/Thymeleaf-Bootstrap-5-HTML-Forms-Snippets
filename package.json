@@ -1,0 +1,27 @@
+{
+  "name": "thymeleaf-bootstrap5-form-snippets",
+  "displayName": "Thymeleaf Bootstrap5  HTML Forms Snippets",
+  "description": "Essential Thymeleaf Code Snippets for Html Forms",
+  "icon": "assets/icon/icon.png",
+  "version": "0.0.1",
+   "publisher": "LalithK90",
+  "repository" : {
+     "type" : "git",
+      "url" : "https://github.com/LalithK90/Thymeleaf-Bootstrap-5-HTML-Forms-Snippets.git"
+   },
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+
+  "contributes": {
+    "snippets": [
+      {
+        "language": "'html'",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
