@@ -1,0 +1,261 @@
+Necessary attribute for checkbox: Creates a checkbox element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The value of the checkbox element. This can be any string.
+    checked: Whether the checkbox element is initially checked.
+    required: Whether the checkbox element is required before the form can be submitted.
+    disabled: Whether the checkbox element is disabled.
+
+<input type="checkbox" name="agree_to_terms" value="on" checked required>
+<label for="agree_to_terms">I agree to the terms and conditions.</label>
+   
+=======================================================================================================================================
+
+Necessary attribute for color: Creates a color picker element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be a hexadecimal color code in the format #rrggbb.
+    required: Whether the color picker element is required before the form can be submitted.
+    disabled: Whether the color picker element is disabled.
+
+<input type="color" name="favorite_color" value="#ff0000" required>
+
+=======================================================================================================================================
+
+Necessary attribute for date: Creates a date picker element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be a date in the format YYYY-MM-DD.
+    min: The earliest date that the user can select. This can be a date in the format YYYY-MM-DD.
+    max: The latest date that the user can select. This can be a date in the format YYYY-MM-DD.
+    step: The minimum interval between dates that the user can select. This can be a number of days, weeks, months, or years.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+
+<input type="date" name="date_of_birth" value="2023-09-17" min="2000-01-01" max="2023-12-31" step="1" placeholder="Enter your date of birth">
+
+=======================================================================================================================================
+
+Necessary attribute for datetime-local: Creates a date and time picker element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be a date and time in the format YYYY-MM-DDThh:mm.
+    min: The earliest date and time that the user can select. This can be a date and time in the format YYYY-MM-DDThh:mm.
+    max: The latest date and time that the user can select. This can be a date and time in the format YYYY-MM-DDThh:mm.
+    step: The minimum interval between dates and times that the user can select. This can be a number of seconds, minutes, hours, days, weeks, months, or years.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+
+<input type="datetime-local" name="appointment_time" value="2023-09-17T10:00" min="2023-09-17T09:00" max="2023-09-17T11:00" step="30" placeholder="Select an appointment time">
+
+=======================================================================================================================================
+
+Necessary attribute for email: Creates an email input element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be an email address.
+    required: Whether the email input element is required before the form can be submitted.
+    disabled: Whether the email input element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+
+<input type="email" name="email_address" value="example@email.com" required placeholder="Enter your email address">
+
+=======================================================================================================================================
+
+Necessary attribute for file: Creates a file upload element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    multiple: Whether the user can select multiple files to upload.
+    accept: A comma-separated list of file type specifiers. This attribute can be used to restrict the types of files that the user can select to upload.
+    required: Whether the file upload element is required before the form can be submitted.
+    disabled: Whether the file upload element is disabled.
+
+<input type="file" name="profile_picture" multiple accept="image/png, image/jpeg" required>
+
+=======================================================================================================================================
+
+Necessary attribute for hidden: Creates a hidden input element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be any string.
+    required: Whether the hidden input element is required before the form can be submitted.
+    disabled: Whether the hidden input element is disabled.
+
+<input type="hidden" name="user_id" value="123456">
+
+=======================================================================================================================================
+
+Necessary attribute for image: Creates an image submit button element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    src: The URL of the image that will be displayed as the submit button.
+    alt: The alt text for the image. This text will be displayed if the image cannot be loaded or if the user is using a screen reader.
+    width: The width of the image in pixels.
+    height: The height of the image in pixels.
+
+<input type="image" name="submit" src="submit-button.png" alt="Submit" width="100" height="50">
+
+=======================================================================================================================================
+
+Necessary attribute for month: Creates a month picker element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be a month in the format YYYY-MM.
+    min: The earliest month and year that the user can select. This can be a month and year in the format YYYY-MM.
+    max: The latest month and year that the user can select. This can be a month and year in the format YYYY-MM.
+    step: The minimum interval between months that the user can select. This can be a number of months or years.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+
+<input type="month" name="birth_month" value="2023-09" min="2000-01" max="2023-12" step="1" placeholder="Enter your birth month">
+
+=======================================================================================================================================
+
+Necessary attribute for number: Creates a number input element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be any number.
+    min: The smallest number that the user can enter.
+    max: The largest number that the user can enter.
+    step: The minimum interval between numbers that the user can select.
+    required: Whether the number input element is required before the form can be submitted.
+    disabled: Whether the number input element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+
+<input type="number" name="quantity" value="1" min="1" max="10" step="1" required placeholder="Enter the quantity">
+
+=======================================================================================================================================
+
+Necessary attribute for password: Creates a password input element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be any string.
+    required: Whether the password input element is required before the form can be submitted.
+    disabled: Whether the password input element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+
+<input type="password" name="password" required placeholder="Enter your password">
+
+
+=======================================================================================================================================
+
+Necessary attribute for radio: Creates a radio button element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The value of the radio button element. This can be any string.
+    checked: Whether the radio button element is initially checked.
+    required: Whether the radio button element is required before the form can be submitted.
+    disabled: Whether the radio button element is disabled.
+
+<input type="radio" name="gender" value="male" checked> Male
+<input type="radio" name="gender" value="female"> Female
+
+=======================================================================================================================================
+
+Necessary attribute for range: Creates a range slider element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be any number within the range specified by the min and max attributes.
+    min: The smallest number that the user can select.
+    max: The largest number that the user can select.
+    step: The minimum interval between numbers that the user can select.
+    required: Whether the range slider element is required before the form can be submitted.
+    disabled: Whether the range slider element is disabled.
+
+<input type="range" name="volume" value="50" min="0" max="100" step="1" required>
+
+=======================================================================================================================================
+
+Necessary attribute for reset: Creates a reset button element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The value of the reset button element. This is the text that will be displayed on the button.
+    disabled: Whether the reset button element is disabled.
+
+<input type="reset" name="reset" value="Reset">
+
+=======================================================================================================================================
+
+Necessary attribute for search: Creates a search input element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be any text string.
+    required: Whether the search input element is required before the form can be submitted.
+    disabled: Whether the search input element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+    autocomplete: Whether the browser should automatically suggest values for the search input element.
+
+<input type="search" name="q" value="" required placeholder="Search">
+
+=======================================================================================================================================
+
+Necessary attribute for submit: Creates a submit button element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The value of the submit button element. This is the text that will be displayed on the button.
+    disabled: Whether the submit button element is disabled.
+
+<input type="submit" name="submit" value="Submit">
+
+=======================================================================================================================================
+
+Necessary attribute for tel: Creates a telephone input element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be a phone number in the format YYYY-MM-DD.
+    required: Whether the telephone input element is required before the form can be submitted.
+    disabled: Whether the telephone input element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+    autocomplete: Whether the browser should automatically suggest values for the telephone input element.
+    pattern: A regular expression that the phone number must match in order to be considered valid. For example, the following pattern would require the phone number to be in the format (123) 456-7890:
+
+<input type="tel" name="phone_number" value="" required placeholder="Enter your phone number" pattern="\(\d{3}\) \d{3}-\d{4}">
+
+=======================================================================================================================================
+
+Necessary attribute for text: Creates a text input element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be any text string.
+    size: The width of the text input element in characters.
+    maxlength: The maximum number of characters that the user can enter into the text input element.
+    required: Whether the text input element is required before the form can be submitted.
+    disabled: Whether the text input element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+
+<input type="text" name="username" value="" size="20" maxlength="50" required placeholder="Enter your username">
+
+=======================================================================================================================================
+
+Necessary attribute for time: Creates a time picker element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be a time in the format HH:MM.
+    required: Whether the time picker element is required before the form can be submitted.
+    disabled: Whether the time picker element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+    min: The earliest time that the user can select. This can be a time in the format HH:MM.
+    max: The latest time that the user can select. This can be a time in the format HH:MM.
+    step: The minimum interval between times that the user can select. This can be a number of minutes or hours.
+
+<input type="time" name="appointment_time" value="" required min="12:00" max="18:00" step="15" placeholder="Enter your appointment time">
+
+=======================================================================================================================================
+
+Necessary attribute for url: Creates a URL input element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be any URL.
+    required: Whether the URL input element is required before the form can be submitted.
+    disabled: Whether the URL input element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+    pattern: A regular expression that the URL must match in order to be considered valid. For example, the following pattern would require the URL to start with https:// or http://:
+
+<input type="url" name="website_url" value="" required pattern="https?://.+" placeholder="Enter your website URL">
+
+=======================================================================================================================================
+
+Necessary attribute for week: Creates a week picker element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be a week in the format YYYY-W##.
+    min: The earliest week that the user can select. This can be a week in the format YYYY-W##.
+    max: The latest week that the user can select. This can be a week in the format YYYY-W##.
+    step: The minimum interval between weeks that the user can select. This can be a number of weeks or years.
+    required: Whether the week picker element is required before the form can be submitted.
+    disabled: Whether the week picker element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+
+<input type="week" name="start_week" value="" min="2023-W35" max="2023-W52" step="1" required placeholder="Enter the start week">
+
+=======================================================================================================================================
+
+Necessary attribute for textarea: Creates a week picker element.
+    name: The name of the input element. This is the name that will be used to identify the input element when the form is submitted.
+    value: The initial value of the input element. This can be any text string.
+    rows: The number of rows in the textarea element.
+    cols: The number of columns in the textarea element.
+    maxlength: The maximum number of characters that the user can enter into the textarea element.
+    required: Whether the textarea element is required before the form can be submitted.
+    disabled: Whether the textarea element is disabled.
+    placeholder: Placeholder text that is displayed in the input element when it is empty.
+
+<textarea type="textarea" name="comment" rows="5" cols="30" maxlength="255" placeholder="Enter your comment here"></textarea>
+
+=======================================================================================================================================
